@@ -1,0 +1,63 @@
+/* Tweet's container */
+.FirstContainerTweet {
+  margin-top: 40px;
+  padding: 20px 25px;
+  border: 1px solid black;
+  border-radius: 10px;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+}
+
+/* Tweet's container */
+.SecondContainerTweet {
+  display: flex;
+  margin-bottom: 20px;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 10px 20px;
+}
+
+/* Tweet's ProfilImg */
+.PictureTweet img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+/* Tweet's Name and Pseudo */
+.NameTweet {
+  font-size: 18px;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.pseudoTweet {
+  font-size: 16px;
+  color: #657786;
+}
+
+/* Tweet's description and Others */
+.description {
+  font-size: 18px;
+  margin-top: 8px;
+  margin-bottom: 16px;
+}
+
+.createdAT {
+  color: #8899a6;
+  font-size: 14px;
+  margin-top: 8px;
+}
+
+.retweets,
+.answers,
+.likes {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  font-size: 14px;
+  margin-top: 8px;
+  margin-right: 5px;
+}

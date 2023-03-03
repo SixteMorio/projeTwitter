@@ -1,0 +1,238 @@
+
+/* Full Container  */
+.fullContainer {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: white;
+  color: #14171A;
+  font-family: Arial,sans-serif;
+}
+
+/* bannière Img */
+.pictureBaniere img {
+  width: 100%;
+  height: auto;
+}
+
+/* Profil Img */
+.profilPicture {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin: -75px auto 0 auto;
+  border: 5px solid white;
+}
+
+/* Name and Pseudo */
+namePseudo {
+  margin-top: 20px;
+  text-align: center;
+}
+
+namePseudo h3 {
+  font-size: 28px;
+  margin: 0;
+}
+
+namePseudo h4 {
+  font-size: 18px;
+  margin: 0;
+  color: #657786;
+}
+
+/* Follow Button */
+.follow button {
+  background-color: #1DA1F2;
+  color: white;
+  border: 1px solid white;
+  border-radius: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+.follow button:hover {
+  background-color: white;
+  color: #0C8EE1;
+  border-color: #0C8EE1;
+}
+
+/* Bio */
+.bio {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+/* Land and Inscription Date */
+.land {
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+/* Follow's container */
+.containerFollow {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.containerFollow h4 {
+  font-size: 18px;
+  color: #657786;
+}
+
+/* Logout/Tweet/editProfil */
+.actionButton {
+  display: flex;
+  justify-content: space-between;
+}
+
+.actionButton a  {
+  color: white;
+  text-decoration: none;
+}
+
+.logout,
+.tweeter,
+.editProfil,
+.reception  {
+  font-size: 16px;
+  margin-top: 20px;
+  padding: 10px 20px;
+  text-align: center;
+  background-color: #0C8EE1;
+  border: 1px solid white;
+  border-radius: 20px;
+}
+
+
+.logout:hover {
+  background-color: white;
+  color: #d60027;
+  border: 1px solid #d60027;
+  border-radius: 20px;
+}
+
+.logout a:hover {
+  color: #d60027;
+}
+
+.editProfil:hover,
+.tweeter:hover,
+.reception:hover {
+  background-color: white;
+  color: #0C8EE1;
+  border:1px solid #0C8EE1;
+  border-radius: 20px;
+}
+
+.editProfil a:hover,
+.tweeter a:hover,
+.reception a:hover {
+  color: #0C8EE1;
+}
+
+/* Tweet's container */
+.FirstContainerTweet {
+  margin-top: 40px;
+}
+
+/* Tweet's container */
+.SecondContainerTweet {
+  display: flex;
+  margin-bottom: 20px;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 10px 20px;
+}
+
+/* Tweet's ProfilImg */
+.PictureTweet img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+/* Tweet's Name and Pseudo */
+.NameTweet {
+  font-size: 18px;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.pseudoTweet {
+  font-size: 16px;
+  color: #657786;
+}
+
+/* Tweet's description and Others */
+.description {
+  font-size: 18px;
+  margin-top: 8px;
+  margin-bottom: 16px;
+}
+
+.createdAT {
+  color: #8899a6;
+  font-size: 14px;
+  margin-top: 8px;
+}
+
+.retweets,
+.answers,
+.likes {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  font-size: 14px;
+  margin-top: 8px;
+  margin-right: 5px;
+}
+
+.containerReaction {
+  left: 600px;
+  display: flex;
+}
+
+.retweets p,
+.answers p,
+.likes p {
+  color: #8899a6;
+  margin-left: 4px;
+}
+
+
+/* Media queries */
+@media (max-width: 600px) {
+  .fullContainer {
+    margin: 0 16px;
+  }
+
+  .containerProfil {
+    padding: 8px;
+  }
+
+  .profilPicture {
+    height: 64px;
+    width: 64px;
+  }
+
+  .accountINfo {
+    margin-top: 8px;
+  }
+
+  .bio {
+    font-size: 16px;
+  }
+
+  .land {
+    margin-top: 8px;
+  }
+
+  .followees,.followers {
+    font-size: 16px;
+    margin-bottom: 16px;
+  }
+}
